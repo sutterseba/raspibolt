@@ -11,6 +11,8 @@ parent: Node Management
 
 We set up [Homer](https://github.com/bastienwirtz/homer#readme){:target="_blank"}, a simple static web dashboard to keep our services on hand, from a simple yaml configuration file. 
 
+![Homer](images/homer.png)
+
 ---
 
 ## Table of contents
