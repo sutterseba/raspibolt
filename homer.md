@@ -58,6 +58,12 @@ We set up [Homer](https://github.com/bastienwirtz/homer#readme){:target="_blank"
   $ npm run build
   ```
 
+* Exit the "homer" user session back to user "admin"
+
+  ```sh
+  $ exit
+  ```
+
 * Move the distributable output into a webroot folder and change its ownership to the “www-data” user.
 
   ```sh
@@ -120,7 +126,7 @@ A sample configuration file is available at `/home/homer/homer/dist/assets/confi
 * Create a new configuration file in the Homer data directory and paste the following configuration settings. Save and exit.
 
   ```sh
-  $ sudo nano /data/homer/config.yml
+  $ nano /data/homer/config.yml
   ```
 
   ```ini
