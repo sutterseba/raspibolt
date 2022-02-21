@@ -226,6 +226,12 @@ A sample configuration file is available at `/home/homer/homer/dist/assets/confi
   
 🔍 * If you want to tweak the dashboard to your own tatse, check the full configuration guidelines on the [Homer repository](https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md){:target="_blank"}. Search for compatible icons on the [Font Awesome webpage](https://fontawesome.com/icons){:target="_blank"}. Read about styling options on the [Bulma CSS framework webapge](https://bulma.io/documentation/components/message/#colors){:target="_blank"}.
 
+* Exit the "homer" user session back to user "admin"
+
+  ```sh
+  $ exit
+  ```
+  
 * Create a symlink to the configuration file and change its ownshership to the "www-data" user
 
   ```sh
