@@ -231,12 +231,12 @@ A sample configuration file is available at `/home/homer/homer/dist/assets/confi
   ```sh
   $ exit
   ```
-  
+
 * Create a symlink to the configuration file and change its ownshership to the "www-data" user
 
   ```sh
   $ sudo ln -s /data/homer/config.yml /var/www/homer/assets/config.yml
-  $ sudo chown www-data:www-data /var/www/homer/assets/config.yml
+  $ sudo chown homer:www-data /var/www/homer/assets/config.yml
   ```
 
 ### First start
