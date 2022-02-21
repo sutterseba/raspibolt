@@ -123,6 +123,12 @@ We set up [Homer](https://github.com/bastienwirtz/homer#readme){:target="_blank"
 
 A sample configuration file is available at `/home/homer/homer/dist/assets/config.yml.dist`. We will create a configuration file derived from this default configuration but tailored to the RaspiBolt.
 
+* Switch back to the "homer" user
+
+  ```sh
+  $ sudo su - homer
+  ```
+
 * Create a new configuration file in the Homer data directory and paste the following configuration settings. Save and exit.
 
   ```sh
